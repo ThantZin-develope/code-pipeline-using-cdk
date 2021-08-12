@@ -44,8 +44,6 @@ repository: repo
          },
          commands: [
              'curl -Ssf $ENDPOINT_URL/',
-             'curl -Ssf $ENDPOINT_URL/hello',
-             'curl -Ssf $ENDPOINT_URL/test'
          ]
      }));
 
