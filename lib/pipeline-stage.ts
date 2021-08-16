@@ -7,9 +7,9 @@ export class WorkshopPipelineStage extends Stage{
     constructor(scope: Construct, id:string , props?: StageProps){
         super(scope,id ,props );
 
-       const service =  new AwsTestsStack(this , 'WebService');
+    //    const service =  new AwsTestsStack(this , 'WebService');
        
-       this.hcViewerUrl = service.hcEndpoint;
+    //    this.hcViewerUrl = service.hcEndpoint;
     }
     
 }
